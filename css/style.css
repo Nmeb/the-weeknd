@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: white;
+}
+
+.welcome{
+  text-align: center;
+  background-color: lightslategray;
+  line-height: 3em;
+  color: white;
+}
+
+header{
+  position: relative;
+  height: 4em;
+  width: 100%;
+  background-color: black;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  line-height: 3em;
+}
+
+header a:hover{
+  color:black;
+  background-color: white;
+}
+
+header a:focus{
+  background-color: lightblue;
+}
+
+footer nav{
+  position: relative;
+  display: flex;
+  height: 12em;
+  background-color:black;
+  width: 100%;
+  align-items: center;
+}
+
+footer ul{
+  color: lightgray;
+  width: 100%;
+  text-align: center;
+  list-style: none;
+}
+
+footer a{
+  color: lightgray;
+  text-decoration: none;
+}
+
+footer h2{
+  line-height: 3em;
+}
+
+h1{
+  color: black;
+  font-size: 4em;
+  min-height: 30vh;
+  text-align: center;
+}
+
+.index img{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
+
+.index article{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.index article p{
+  font-size: 2em;
+  width: 16em;
+  color: gray;
+}
+
+.index section{
+  height: 100vh;
+  background-image: url("/imgs/background33.jpg");  
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+
+.index section p{
+  color: white;
+  width: 18em;
+  text-align: center;
+}
+.index section a {
+  list-style: none;
+  text-decoration: none;
+  color: lightblue;
+}
+.merch div img{
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+}
+.merch div p{
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.merch div a{
+  text-decoration: underline;
+  color: rgb(1, 74, 1);
+}
+
+
+.merch h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+
+.history img{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 40%;
+}
+
+.history p{
+  width: 40%;
+  margin: auto;
+  align-items: center;
+  font-size: 130%;
+}
+
+.history h2{
+  text-align: center;
+  line-height: 2em;
+  font-size: 3em;
+}
