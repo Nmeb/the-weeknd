@@ -32,7 +32,7 @@ header ul{
 header a{
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.2vw;
   font-weight: bold;
   line-height: 3em;
 }
@@ -68,28 +68,21 @@ footer a{
 }
 
 footer h2{
-  line-height: 3em;
+  line-height: 2vw;
 }
 
 h1{
   color: black;
-  font-size: 4em;
+  font-size: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 5em;
 }
-
-.img{
-  background-image: url("imgs/background4.jpg");  
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  background-position: center;
-  background-attachment: fixed;
-    
+.index img{
+  height: auto;
+  width: 100%; 
 }
-
 .index article{
   height: 100vh;
   display: flex;
@@ -97,32 +90,30 @@ h1{
   align-items: center;
 }
 .index article p{
-  font-size: 1.75em;
+  font-size: 2vw;
   width: 16em;
   color: gray;
 }
 
 .index section{
-  height: 100vh;
-  background-image: url("imgs/background5.jpg");  
-  font-size: 2em;
   display: flex;
+  justify-content: center;
   align-items: center;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
-
+.index section img{
+  height: auto;
+  width: 50%;
+}
 .index section p{
-  color: white;
+  color: black;
   width: 14em;
   text-align: center;
-  
+  font-size: 2vw;
 }
 .index section a {
   list-style: none;
   text-decoration: none;
-  color: lightblue;
+  color: green
 }
 .merch div img{
   width: 50%;
@@ -131,7 +122,7 @@ h1{
 }
 .merch div p{
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.2vw;
 }
 
 .merch div a{
@@ -150,7 +141,6 @@ h1{
 .history img{
   margin: auto;
   display: flex;
-  justify-content: center;
   width: 40%;
 }
 
@@ -158,11 +148,29 @@ h1{
   width: 40%;
   margin: auto;
   align-items: center;
-  font-size: 1.3em;
+  font-size: 1.3vw;
 }
 
 .history main h2{
   text-align: center;
-  line-height: 2em;
-  font-size: 3em;
+  line-height: 3em;
+  font-size: 2.5vw;
+}
+
+iframe{
+  margin: auto;
+  display: flex;
+  width: 40%;
+}
+
+.history article{
+  width: 40%;
+  margin: auto;
+  align-items: center;
+  font-size: 1.3vw;
+}
+
+.history article p{
+  width: 70%;
+  color: gray;
 }
