@@ -20,6 +20,7 @@ header {
   position: relative;
   width: 100%;
   background-color: black;
+  height: auto;
 }
 
 header ul {
@@ -99,34 +100,34 @@ h1 {
   align-items: center;
 }
 
-.index article h2 {
-  width: 20em;
+.index article p {
+  width: 16em;
   color: gray;
+  font-size: 1.5vw;
 }
 
-.index section {
+
+.index div {
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
+  justify-content: center;
 }
 
-.index section img {
-  height: auto;
-  width: 50%;
+.index div img {
+  width: 40%;
 }
 
-.index section p {
+.index div p {
   color: black;
-  width: 30%;
   text-align: center;
-  font-size: 2vw;
+  font-size: 1.5vw;
+  width: 30%;
 }
 
-.index section a {
+.index div a {
   list-style: none;
   text-decoration: none;
-  color: green
+  color: green;
 }
 
 .merch div img {
