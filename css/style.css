@@ -2,11 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  
 }
 
 body {
   font-family: sans-serif;
-  background-color: lightgraywhite;
+  background-color: lightgray;
+
 }
 
 .welcome {
@@ -14,11 +16,13 @@ body {
   background-color: lightslategray;
   line-height: 3em;
   color: white;
+
 }
 
 header {
   position: relative;
   background-color: black;
+
 }
 
 header ul {
@@ -27,6 +31,7 @@ header ul {
   list-style: none;
   height: 4em;
   align-items: center;
+
 }
 
 header a {
@@ -34,22 +39,27 @@ header a {
   color: white;
   font-size: 1.2vw;
   font-weight: bold;
+
 }
 
 header a:hover {
   color:black;
   background-color: white;
+
 }
 
 header a:focus {
   background-color: lightblue;
+
 }
 
 footer {
   position: relative;
   background-color: black;
   width: auto;
+
 }
+
 footer nav {
   display: flex;
   height: 12em;
@@ -63,17 +73,20 @@ footer ul {
   text-align: center;
   list-style: none;
   object-fit: contain;
+
 }
 
 footer a {
   color: lightgray;
   text-decoration: none;
   font-size: 1rem;
+
 }
 
 footer a:hover {
   color:black;
   background-color: white;
+
 }
 
 footer a:focus {
@@ -87,11 +100,13 @@ h1 {
   justify-content: center;
   align-items: center;
   height: 5em;
+
 }
 
 .index img {
   height: auto;
   width: 100%; 
+
 }
 
 .index article {
@@ -99,12 +114,14 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .index article p {
   width: 16em;
   color: gray;
   font-size: 1.5vw;
+
 }
 
 
@@ -112,10 +129,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .index div img {
   width: 40%;
+
 }
 
 .index div p {
@@ -123,28 +142,33 @@ h1 {
   text-align: center;
   font-size: 1.5vw;
   width: 30%;
+
 }
 
 .index div a {
   list-style: none;
   text-decoration: none;
   color: green;
+
 }
 
 .merch div img {
   width: 50%;
   display: flex;
   margin: 0 auto;
+
 }
 
 .merch div p {
   text-align: center;
   font-size: 1.2vw;
+
 }
 
 .merch div a {
   text-decoration: underline;
   color: rgb(1, 74, 1);
+
 }
 
 
@@ -153,6 +177,7 @@ h1 {
   align-items: center;
   justify-content: center;
   height: 40vh;
+
 }
 
 .history main {
@@ -165,43 +190,52 @@ h1 {
 
 }
 
-.history article{
+.history article {
   line-height: 1.4em;
   font-size: 1vw;
 
 }
 
-.history h2{
+.history h2 {
   line-height: 3rem;
+
 }
+
 .history img, iframe {
   width: 100%;
+
 }
 
 .history main ul {
   line-height: 2em;
   width: 80%;
+
 }
 
-.history ul h2{
+.history ul h2 {
   text-align: center;
+
 }
-.history h3{
+
+.history h3 {
   color: gray;
   font-size: 0.7vw;
+
 }
 
-.history main a{
+.history main a {
   text-decoration: none;
   color: gray;
+
 }
 
-.history main div{
+.history main div {
   border: white solid 1em;
+
 }
 
 
-.discography main{
+.discography main {
   display: flex;
   row-gap: 5em;
   flex-direction: column;
@@ -209,22 +243,25 @@ h1 {
 
 }
 
-.discography img{
+.discography img {
   width: 40%;
   margin: 0 auto;  
+
 }
 
 .discography div p {
   text-align: center;
   font-size: 1.2vw;
+
 }
 
 .discography div a {
   text-decoration: none;
   color: green;
+
 }
 
-.discography div{
+.discography div {
   width: 100%;
 
 }
