@@ -53,45 +53,6 @@ header a:focus {
 
 }
 
-footer {
-  position: relative;
-  background-color: black;
-
-}
-
-footer nav {
-  display: flex;
-  height: 12em;
-  align-items: center;
-
-} 
-
-footer ul{
-  color: lightgray;
-  width: 100%;
-  list-style: none;
-  text-align: center;
-
-}
-
-footer a {
-  color: lightgray;
-  text-decoration: none;
-  font-size: 1rem;
-
-}
-
-footer a:hover {
-  color:black;
-  background-color: white;
-
-}
-
-footer a:focus {
-  background-color: lightblue;
-}
-
-
 h1 {
   color: black;
   font-size: 4vw;
@@ -120,7 +81,6 @@ h1 {
   width: 16em;
   color: gray;
   font-size: 1.5vw;
-
 }
 
 
@@ -144,38 +104,10 @@ h1 {
 
 }
 
-.index div a {
+.index main a {
   list-style: none;
   text-decoration: none;
   color: green;
-
-}
-
-.merch div img {
-  width: 50%;
-  display: flex;
-  margin: 0 auto;
-
-}
-
-.merch div p {
-  text-align: center;
-  font-size: 1.2vw;
-
-}
-
-.merch div a {
-  text-decoration: underline;
-  color: rgb(1, 74, 1);
-
-}
-
-
-.merch h3 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40vh;
 
 }
 
@@ -255,4 +187,100 @@ h1 {
 .discography div {
   width: 100%;
 
+}
+
+.merch div img {
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+
+}
+
+.merch div p {
+  text-align: center;
+  font-size: 1.2vw;
+
+}
+
+.merch div a {
+  text-decoration: underline;
+  color: rgb(1, 74, 1);
+
+}
+
+
+.merch h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+
+}
+
+.source main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3em;
+}
+
+.source section {
+  width: 40%;
+  margin: 0 auto; 
+  
+}
+
+.source img {
+  width: 100%;
+
+}
+.source h2 {
+  color: blueviolet;
+
+} 
+
+.source h4 {
+  line-height: 2em;
+
+}
+
+.source main a {
+  color: green;
+
+}
+
+footer {
+  position: relative;
+  background-color: black;
+}
+
+footer nav {
+  display: flex;
+  height: 6em;
+  align-items: center;
+
+} 
+
+footer ul{
+  color: lightgray;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+
+}
+
+footer a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 1rem;
+
+}
+
+footer a:hover {
+  color:black;
+  background-color: white;
+
+}
+
+footer a:focus {
+  background-color: lightblue;
 }
