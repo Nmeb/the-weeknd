@@ -1,0 +1,18 @@
+Naam: Nabait Mebrahtu
+Studentnummer: 500939599
+Klas: Staal
+Schooljaar: 2023/202
+
+LINK NAAR LIVE WEBSITE
+https://nmeb.github.io/the-weeknd/ 
+
+BRONVERMELDING
+1. https://internetingishard.netlify.app/html-and-css/index.html
+2. https://www.w3schools.com/css/css3_flexbox.asp
+3. https://www.youtube.com/watch?v=-sb7mGZ69yg&t=87s&ab_channel=ByteGrad
+4. https://www.youtube.com/watch?si=LqsgctMTdK8BW29o&v=QlHyLKAKceM&feature=youtu.be
+5. https://www.youtube.com/watch?v=wARbgs5Fmuw&t=84s&ab_channel=KevinPowell
+6. https://www.youtube.com/watch?v=Gx0iZrN-0L4&t=112s&ab_channel=KevinPowell
+7. https://www.youtube.com/watch?v=no9y_JZozEo
+8. https://www.youtube.com/watch?v=G3e-cpL7ofc&t=22122s&ab_channel=SuperSimpleDev
+9. https://www.youtube.com/watch?v=K74l26pE4YA&ab_channel=Fireship
