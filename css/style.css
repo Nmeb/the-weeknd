@@ -6,7 +6,7 @@
 
 body {
   font-family: sans-serif;
-  background-color: white;
+  background-color: lightgraywhite;
 }
 
 .welcome {
@@ -159,50 +159,72 @@ h1 {
   margin: auto;
   align-items: center;
   width: 40%;
-  justify-content: center;
-
-}
-
-.history article, section{
   display: flex;
+  row-gap: 1em;
   flex-direction: column;
-  gap: 1.5vw;
-  font-size: 1vw;
+
 }
 
+.history article{
+  line-height: 1.4em;
+  font-size: 1vw;
 
+}
+
+.history h2{
+  line-height: 3rem;
+}
 .history img, iframe {
   width: 100%;
 }
 
-
-/*
-.history main :nth-child(2){
-  font-size: 1rem;  
-  color: gray;
-  line-height: 1;
-
+.history main ul {
+  line-height: 2em;
+  width: 80%;
 }
-*/
 
 .history ul h2{
   text-align: center;
 }
-.history ul {
-  line-height: 2em;
- 
-}
 .history h3{
   color: gray;
-  height: 2rem;
-  font-size: 1vw;
+  font-size: 0.7vw;
 }
 
 .history main a{
   text-decoration: none;
+  color: gray;
+}
+
+.history main div{
+  border: white solid 1em;
+}
+
+
+.discography main{
+  display: flex;
+  row-gap: 5em;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.discography img{
+  width: 40%;
+  margin: 0 auto;  
+}
+
+.discography div p {
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.discography div a {
+  text-decoration: none;
   color: green;
 }
 
-.history div{
-  border: solid 4em lightgray;
+.discography div{
+  width: 100%;
+
 }
