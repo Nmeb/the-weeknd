@@ -117,7 +117,7 @@ h1 {
 
 }
 
-.index article p {
+.index article p, h2 {
   width: 16em;
   color: gray;
   font-size: 1.5vw;
@@ -196,8 +196,9 @@ h1 {
 
 }
 
-.history h2 {
+.history main h2 {
   line-height: 3rem;
+  color: black;
 
 }
 
@@ -212,10 +213,6 @@ h1 {
 
 }
 
-.history ul h2 {
-  text-align: center;
-
-}
 
 .history h3 {
   color: gray;
