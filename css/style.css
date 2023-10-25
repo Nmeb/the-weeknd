@@ -64,7 +64,6 @@ h1 {
 }
 
 .index img {
-  height: auto;
   width: 100%; 
 
 }
@@ -74,15 +73,13 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 26em;
+  margin: auto;
+  color: darkslategray;
+  font-size: 1.4vw;
+  gap: 4em;
 
 }
-
-.index article p, h2 {
-  width: 16em;
-  color: gray;
-  font-size: 1.5vw;
-}
-
 
 .index div {
   display: flex;
@@ -113,19 +110,18 @@ h1 {
 
 .history main {
   margin: auto;
-  align-items: center;
   width: 40%;
-  display: flex;
-  row-gap: 1em;
-  flex-direction: column;
 
 }
 
 .history article {
-  line-height: 1.6em;
+  line-height: 1.3em;
   font-size: 1vw;
-
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
 }
+
 
 .history main h2 {
   line-height: 2rem;
@@ -156,7 +152,6 @@ h1 {
   color: green;
 
 }
-
 
 .discography main {
   display: flex;
