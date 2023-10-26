@@ -163,25 +163,14 @@ h1 {
 
 .discography img {
   width: 40%;
-  margin: 0 auto;  
 
 }
 
-.discography div p {
-  text-align: center;
-  font-size: 1.2vw;
-
-}
-
-.discography div a {
+.discography main a {
   text-decoration: none;
+  list-style: none;
   color: green;
-
-}
-
-.discography div {
-  width: 100%;
-
+  font-size: 1.2vw;
 }
 
 .merch div img {
