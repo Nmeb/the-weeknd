@@ -173,31 +173,31 @@ h1 {
   font-size: 1.2vw;
 }
 
-.merch div img {
+.merch img {
   width: 50%;
   display: flex;
-  margin: 0 auto;
+  margin: auto;
 
 }
 
-.merch div p {
+.merch article p {
   text-align: center;
   font-size: 1.2vw;
 
 }
 
-.merch div a {
+.merch main a {
   text-decoration: underline;
-  color: rgb(1, 74, 1);
+  color: green;
 
 }
 
 
-.merch h3 {
+.merch main h3 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  height: 15em;
 
 }
 
