@@ -204,26 +204,22 @@ h1 {
 .source main {
   display: flex;
   flex-direction: column;
-  row-gap: 3em;
+  gap: 3em;
+
 }
 
 .source section {
   width: 40%;
-  margin: 0 auto; 
+  margin: auto; 
   
 }
 
-.source img {
-  width: 100%;
+.source section h2 {
+  line-height: 3em;
 
 }
-.source h2 {
-  color: black;
-
-} 
-
-.source h4 {
-  line-height: 2em;
+.source img {
+  width: 100%;
 
 }
 
