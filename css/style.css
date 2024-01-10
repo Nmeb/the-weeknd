@@ -10,6 +10,7 @@ body {
 
 }
 
+/* navigatie balk */
 .welcome {
   text-align: center;
   background-color: lightslategray;
@@ -54,30 +55,29 @@ header a:focus {
 
 h1 {
   color: black;
-  font-size: 4vw;
+  font-size: 3em;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 5em;
+  height: 3em;
 
 }
 
-/* eerste pagina */
+/* home  (1ste pagina) */
 .index img {
   width: 100%; 
 
 }
 
 .index article {
-  height: 50em;
+  height: 35em;
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 26em;
+  width: 35em;
   margin: auto;
   color: darkslategray;
-  font-size: 1.4vw;
   gap: 4em;
+  font-size: 1.3em;
 
 }
 
@@ -103,13 +103,12 @@ h1 {
 
 .index main a {
   list-style: none;
-  text-decoration: none;
+  text-decoration: underline;
   color: green;
 
 }
 
-/* tweede pagina */
-
+/* history (2e pagina) */
 .history main {
   margin: auto;
   width: 40%;
@@ -155,8 +154,7 @@ h1 {
 
 }
 
-/* derde pagina */
-
+/* discography (3e pagina) */
 .discography main {
   display: flex;
   row-gap: 5em;
@@ -177,18 +175,17 @@ h1 {
   font-size: 1.2vw;
 }
 
-/* vierde pagina */
-
+/* merch (4e pagina) */
 .merch img {
-  width: 50%;
+  width: 45%;
   display: flex;
   margin: auto;
 
 }
 
-.merch article p {
+.merch h2 {
   text-align: center;
-  font-size: 1.2vw;
+  font-size: 1.2em;
 
 }
 
@@ -208,7 +205,6 @@ h1 {
 }
 
 /* bronnenlijst (link in footer) */
-
 .source main {
   display: flex;
   flex-direction: column;
@@ -222,10 +218,6 @@ h1 {
   
 }
 
-.source section h2 {
-  line-height: 3em;
-
-}
 .source img {
   width: 100%;
 
@@ -236,11 +228,11 @@ h1 {
 
 }
 
+/* footer */
 footer {
   position: relative;
   background-color: black;
 }
-
 
 footer nav {
   display: flex;
