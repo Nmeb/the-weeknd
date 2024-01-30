@@ -2,4 +2,4 @@ De alinea's in de history pagina zatten eerst allemaal in losse articles. Nu zit
 Alle albumbs in de discography pagina waren eerst in losse divs, dit heb ik nu veranderd naar unorderd list.
 De merch foto's waren eerst in 1 grote div element, maar nu heb ik elke merch item in een article geplaatst. 
 Comments in css geplaatst om de code beter leesbaar te maken.   
-Beter beschrijving gegeven bij de alt tekst 
+Beter beschrijving gegeven bij alt teksten.
